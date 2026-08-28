@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Для Леночки — с любовью</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Dosis:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Первый экран: анимация сердечек -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <p class="hero-eyebrow">Для самой особенной</p>
+      <h1 class="hero-title">Леночка,<br>я тебя люблю</h1>
+      <p class="hero-subtitle">Сильнее, чем могут сказать слова</p>
+    </div>
+
+    <div class="hero-hearts">
+      <div id="ui" aria-hidden="true"></div>
+    </div>
+
+    <a class="scroll-hint" href="#phrases" aria-label="Листай ниже">
+      <span>Листай ниже</span>
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M12 16l-6-6h12z"/>
+      </svg>
+    </a>
+  </section>
+
+  <!-- Фразы о любви -->
+  <section class="phrases" id="phrases">
+    <article class="phrase reveal">
+      <span class="phrase-number">01</span>
+      <h2>Ты — самое прекрасное,<br>что случилось со мной</h2>
+      <p>Каждый раз, когда я думаю о тебе, мир становится теплее и светлее.</p>
+    </article>
+
+    <article class="phrase reveal">
+      <span class="phrase-number">02</span>
+      <h2>Я люблю тебя<br>безмерно сильно</h2>
+      <p>Ты — моё сердце, моя радость и причина улыбаться каждый день.</p>
+    </article>
+
+    <article class="phrase reveal">
+      <span class="phrase-number">03</span>
+      <h2>Ты — моё солнце<br>в самый серый день</h2>
+      <p>С тобой даже обычные моменты превращаются в маленькие чудеса.</p>
+    </article>
+
+    <article class="phrase reveal">
+      <span class="phrase-number">04</span>
+      <h2>Хочу быть рядом<br>с тобой всегда</h2>
+      <p>Ты — человек, ради которого хочется становиться лучше каждый день.</p>
+    </article>
+  </section>
+
+  <!-- Галерея фотографий -->
+  <section class="gallery" id="gallery">
+    <header class="gallery-header reveal">
+      <p class="gallery-eyebrow">Мои любимые моменты</p>
+      <h2>Ты — самая красивая</h2>
+      
+    </header>
+
+    <div class="gallery-grid">
+      <figure class="photo-card reveal">
+        <div class="photo-frame">
+          <img src="photos/1.jpg" alt="Леночка — фото 1" loading="lazy">
+        </div>
+        <figcaption>Ты прекрасна</figcaption>
+      </figure>
+
+      <figure class="photo-card reveal">
+        <div class="photo-frame">
+          <img src="photos/2.jpg" alt="Леночка — фото 2" loading="lazy">
+        </div>
+        <figcaption>Моя любовь</figcaption>
+      </figure>
+
+      <figure class="photo-card reveal">
+        <div class="photo-frame">
+          <img src="photos/3.jpg" alt="Леночка — фото 3" loading="lazy">
+        </div>
+        <figcaption>Моё счастье</figcaption>
+      </figure>
+
+      <figure class="photo-card reveal">
+        <div class="photo-frame">
+          <img src="photos/4.jpg" alt="Леночка — фото 4" loading="lazy">
+        </div>
+        <figcaption>Моё всё</figcaption>
+      </figure>
+
+      <figure class="photo-card reveal">
+        <div class="photo-frame">
+          <img src="photos/5.jpg" alt="Леночка — фото 5" loading="lazy">
+        </div>
+        <figcaption>Навсегда твоя</figcaption>
+      </figure>
+
+      <figure class="photo-card reveal">
+        <div class="photo-frame">
+          <img src="photos/6.jpg" alt="Леночка — фото 6" loading="lazy">
+        </div>
+        <figcaption>С любовью</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- Финальный экран -->
+  <footer class="finale reveal">
+    <div class="finale-glow"></div>
+    <p class="finale-eyebrow">Навсегда и всегда</p>
+    <h2>Я люблю тебя,<br>Леночка</h2>
+    <p class="finale-text">Ты — моя самая большая любовь.<br>Спасибо, что ты есть.</p>
+    <a class="finale-link" href="#hero">↑ Наверх</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
