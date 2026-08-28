@@ -2,11 +2,12 @@
   const ui = document.getElementById('ui');
   const heartCount = 100;
   const phrases = [
-    'I Love You',
     'Я люблю тебя',
-    'Леночка',
+    'Леша',
+    'Навсегда',
+    'Мой свет',
+    'С тобой',
     '♥',
-    'Forever',
   ];
 
   for (let i = 0; i < heartCount; i++) {
